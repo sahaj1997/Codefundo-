@@ -1,6 +1,12 @@
 EARTHQUAKE PREDICTION AND MANAGEMENT SYSTEM
 
-Earthquakes have often been the harbinger of mass destruction.
+Earthquakes have often been the harbinger of mass destruction. They can be predicted and managed but it is very difficult or perhaps impossible to prevent it.
+
+The following model proposes to use the methods of prediction and management to create a system in place to cater to the growing needs of the domain of disaster management.
+
+LANGUAGES
+
+The project uses python and matlab.
 
 PREDICTION 
 
