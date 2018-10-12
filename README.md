@@ -24,7 +24,7 @@ Time series data is data which depends on time i.e. it has relationship with the
 
 Earthquakes carry information in the form of seismic waves(having a temporal relationship) which contain data in the form of records. In order to capture this important piece of information into our model we take this data and use it in LSTM network. 
 
-In addition to this some other sources have been used to collect data from seismographs e.g. http://ds.iris.edu/ds/nodes/dmc/software/downloads/irisfetch.m/.
+In addition to this some other sources have been used to collect data from seismographs i.e. http://ds.iris.edu/ds/nodes/dmc/software/downloads/irisfetch.m/ and https://www.researchgate.net/publication/323992824_A_spectrum-based_adaptive_sampling_algorithm_for_smart_sensing#pfc.
 
 MODEL USED
 
@@ -34,4 +34,11 @@ MANAGEMENT SYSTEM
 
 Machine Learning Algorithms are not 100% accurate although they have high probabilities to detect or predict things. In order to predict things, we will use the model mentioned above.
 
-However, In case of a misprediction, it becomes evident to 
+However, In case of a misprediction, it becomes evident to put a management system in place to take care of any contigencies.
+The management system we propose is to create a region-wise Disaster-Aid-Relief System based on data gathered from Sources.
+
+The application uses GoogleMaps to point out specific regions which are in need of Disaster-Relief.
+
+It captures the spending of money on the Relief-Measures as well as the next best possible investment.
+
+It uses economic measures such as opportunity cost and certain other metrics e.g. Relief-Aid/(no. of people * distance from base) to model this management system.
